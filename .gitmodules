@@ -1,0 +1,3 @@
+[submodule "afni"]
+	path = afni
+	url = git@github.com:ccraddock/afni.git

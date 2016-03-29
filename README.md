@@ -1,7 +1,9 @@
 # Creating  for AFNI development
 
-1. install virtual-box
-1. install vagrant
+1. [install virtual-box](https://www.virtualbox.org/wiki/Downloads)
+
+1. [install vagrant](https://www.vagrantup.com/docs/installation/)
+
 1. create a root directory to host the vagrant project 
     ```bash
         mkdir vagrant_afni
