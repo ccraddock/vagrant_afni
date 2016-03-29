@@ -11,7 +11,6 @@ apt-get install -y libexpat1-dev
 apt-get install -y libxft-dev
 apt-get install -y libxmu-dev 
 apt-get install -y libxpm-dev 
-apt-get install -y libgslk0-dev 
 apt-get install -y mesa-common-dev 
 apt-get install -y libglu1-mesa-dev 
 apt-get install -y libxi-dev
