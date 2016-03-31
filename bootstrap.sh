@@ -2,7 +2,6 @@
 
 apt-get update
 apt-get install -y apt-file
-apt-file update
 apt-get install -y libxext-dev 
 apt-get install -y libxmu-headers 
 apt-get install -y libmotif-dev 
