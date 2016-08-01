@@ -1,4 +1,4 @@
-# Creating  for AFNI development
+# Creating  vagrant project for AFNI development
 
 1. [install virtual-box](https://www.virtualbox.org/wiki/Downloads)
 
@@ -10,6 +10,13 @@
         cd vagrant_afni	
         vagrant init
     ```
+	
+1. install plugin to automatically update vbox guest additions
+    ```
+        vagrant plugin install vagrant-vbguest
+    ```
+	
+The following steps are for recreating the files that are in this repository:
 	
 1. Edit Vagrantfile to set the base to ubuntu/trusty64 (Ubuntu 14.04 server)
     ```
@@ -23,7 +30,5 @@
 	      config.vm.box = "ubuntu/trusty64"
     ```
 	
-1. install plugin to automatically update vbox guest additions
-    ```
-        vagrant plugin install vagrant-vbguest
-    ```
+1. create a provisioning script `bootstrap.sh` to get all of the packages necessary to build AFNI
+
